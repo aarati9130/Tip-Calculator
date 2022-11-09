@@ -34,11 +34,12 @@ function calculateTip() {
     
     }
     
-    
-    
-   
     document.getElementById("totalTip"). style.display ="none";
     document.getElementById("each"). style.display = "none";
-    
-    
-    document.getElementById("calculate").onclick= function(){calculateTip();};
+    document.getElementById("calculate").onclick= function(){calculateTip() ;};
+   
+    function newFunction(){
+        var element = document.getElementById("calculate ");
+         element.reset()
+      }
+      
